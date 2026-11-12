@@ -1,0 +1,772 @@
+////////////////////////////////////////////////////////////
+Starting conversion at 12/11/2026 11:39:35,365
+////////////////////////////////////////////////////////////
+
+------------------------------------------------------------
+Converting Recnum table: 253, CodeType, Code Maintenance Type Table
+Progress:Start time: 12/11/2026 11:39:35,366
+Start time: 12/11/2026 11:39:35,366
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key CODETY001_PK.
+Creating primary key CODETY001_PK.
+Progress:ERROR 12289: Error general 42000 (-3550)--[Microsoft][Controlador ODBC dBASE] Error de sintaxis en la cláusula CONSTRAINT.  Table = CodeType (0), Source = ODBC_DRV.Structure_End.CreateIndexes
+ERROR 12289: Error general 42000 (-3550)--[Microsoft][Controlador ODBC dBASE] Error de sintaxis en la cláusula CONSTRAINT.  Table = CodeType (0), Source = ODBC_DRV.Structure_End.CreateIndexes
+Progress:End time: 12/11/2026 11:39:35,392
+End time: 12/11/2026 11:39:35,392
+Progress:Total time to convert table: 0:0:0:0,026
+Total time to convert table: 0:0:0:0,026
+
+------------------------------------------------------------
+Converting Recnum table: 254, CodeMast, Code Maintenance Code Table
+Progress:Start time: 12/11/2026 11:39:35,394
+Start time: 12/11/2026 11:39:35,394
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key CODEMA001_PK.
+Creating primary key CODEMA001_PK.
+Progress:ERROR 12289: Error general 42000 (-3550)--[Microsoft][Controlador ODBC dBASE] Error de sintaxis en la cláusula CONSTRAINT.  Table = CodeMast (0), Source = ODBC_DRV.Structure_End.CreateIndexes
+ERROR 12289: Error general 42000 (-3550)--[Microsoft][Controlador ODBC dBASE] Error de sintaxis en la cláusula CONSTRAINT.  Table = CodeMast (0), Source = ODBC_DRV.Structure_End.CreateIndexes
+Progress:End time: 12/11/2026 11:39:35,405
+End time: 12/11/2026 11:39:35,405
+Progress:Total time to convert table: 0:0:0:0,011
+Total time to convert table: 0:0:0:0,011
+
+------------------------------------------------------------
+Converting Recnum table: 263, WebAppSession, WebApp Session
+Progress:Start time: 12/11/2026 11:39:35,405
+Start time: 12/11/2026 11:39:35,405
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key WEBAPP001_PK.
+Creating primary key WEBAPP001_PK.
+Progress:ERROR 12289: Error general 42000 (-3550)--[Microsoft][Controlador ODBC dBASE] Error de sintaxis en la cláusula CONSTRAINT.  Table = WebAppSession (0), Source = ODBC_DRV.Structure_End.CreateIndexes
+ERROR 12289: Error general 42000 (-3550)--[Microsoft][Controlador ODBC dBASE] Error de sintaxis en la cláusula CONSTRAINT.  Table = WebAppSession (0), Source = ODBC_DRV.Structure_End.CreateIndexes
+Progress:End time: 12/11/2026 11:39:35,437
+End time: 12/11/2026 11:39:35,437
+Progress:Total time to convert table: 0:0:0:0,032
+Total time to convert table: 0:0:0:0,032
+
+------------------------------------------------------------
+Converting Recnum table: 264, WebAppUser, WebApp User
+Progress:Start time: 12/11/2026 11:39:35,437
+Start time: 12/11/2026 11:39:35,437
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key WEBAPP001_PK.
+Creating primary key WEBAPP001_PK.
+Progress:ERROR 12289: Error general 42000 (-3550)--[Microsoft][Controlador ODBC dBASE] Error de sintaxis en la cláusula CONSTRAINT.  Table = WebAppUser (0), Source = ODBC_DRV.Structure_End.CreateIndexes
+ERROR 12289: Error general 42000 (-3550)--[Microsoft][Controlador ODBC dBASE] Error de sintaxis en la cláusula CONSTRAINT.  Table = WebAppUser (0), Source = ODBC_DRV.Structure_End.CreateIndexes
+Progress:End time: 12/11/2026 11:39:35,455
+End time: 12/11/2026 11:39:35,455
+Progress:Total time to convert table: 0:0:0:0,018
+Total time to convert table: 0:0:0:0,018
+
+------------------------------------------------------------
+Converting Recnum table: 265, WebAppServerProps, WebApp Server Props
+Progress:Start time: 12/11/2026 11:39:35,465
+Start time: 12/11/2026 11:39:35,465
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key WEBAPP001_PK.
+Creating primary key WEBAPP001_PK.
+Progress:ERROR 12289: Error general 42000 (-3550)--[Microsoft][Controlador ODBC dBASE] Error de sintaxis en la cláusula CONSTRAINT.  Table = WebAppServerProps (0), Source = ODBC_DRV.Structure_End.CreateIndexes
+ERROR 12289: Error general 42000 (-3550)--[Microsoft][Controlador ODBC dBASE] Error de sintaxis en la cláusula CONSTRAINT.  Table = WebAppServerProps (0), Source = ODBC_DRV.Structure_End.CreateIndexes
+Progress:End time: 12/11/2026 11:39:35,505
+End time: 12/11/2026 11:39:35,505
+Progress:Total time to convert table: 0:0:0:0,04
+Total time to convert table: 0:0:0:0,04
+
+------------------------------------------------------------
+Converting Recnum table: 270, DFLastID, DFLastID
+Progress:Start time: 12/11/2026 11:39:35,505
+Start time: 12/11/2026 11:39:35,505
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_PRIMARY_INDEX to 0
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating intermediate file.
+Creating intermediate file.
+CLI_DROPINDICES
+Progress:Temporary delete of all indices of table DFLastID.
+Temporary delete of all indices of table DFLastID.
+Progress:Copying record
+Progress:All 0 records copied.
+All 0 records copied.
+CLI_CREATEINDICES
+Progress:Re-creating temporary deleted indices of table DFLastID.
+Re-creating temporary deleted indices of table DFLastID.
+Close hSQLTable
+Close ahTables[iCount]
+Adjust filelist slot
+Output_def_file
+Progress:End time: 12/11/2026 11:39:35,531
+End time: 12/11/2026 11:39:35,531
+Progress:Total time to convert table: 0:0:0:0,026
+Total time to convert table: 0:0:0:0,026
+
+############################################################
+List of tables that experienced errors while converting:
+   CodeType - Unable to create.
+   CodeMast - Unable to create.
+   WebAppSes- Unable to create.
+   WebAppUse- Unable to create.
+   WebAppSer- Unable to create.
+////////////////////////////////////////////////////////////
+Finished conversion at 12/11/2026 11:39:35,531
+Total conversion time: 0:0:0:0,166
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Starting conversion at 12/11/2026 11:52:00,03
+////////////////////////////////////////////////////////////
+
+------------------------------------------------------------
+Converting Recnum table: 253, CodeType, Code Maintenance Type Table
+Progress:Start time: 12/11/2026 11:52:00,04
+Start time: 12/11/2026 11:52:00,04
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeType' ya existe.  Table = CodeType (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeType' ya existe.  Table = CodeType (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 11:52:00,04
+End time: 12/11/2026 11:52:00,04
+Progress:Total time to convert table: 0:0:0:0
+Total time to convert table: 0:0:0:0
+
+------------------------------------------------------------
+Converting Recnum table: 254, CodeMast, Code Maintenance Code Table
+Progress:Start time: 12/11/2026 11:52:00,04
+Start time: 12/11/2026 11:52:00,04
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeMast' ya existe.  Table = CodeMast (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeMast' ya existe.  Table = CodeMast (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 11:52:00,04
+End time: 12/11/2026 11:52:00,04
+Progress:Total time to convert table: 0:0:0:0
+Total time to convert table: 0:0:0:0
+
+------------------------------------------------------------
+Converting Recnum table: 263, WebAppSession, WebApp Session
+Progress:Start time: 12/11/2026 11:52:00,04
+Start time: 12/11/2026 11:52:00,04
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppSession' ya existe.  Table = WebAppSession (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppSession' ya existe.  Table = WebAppSession (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 11:52:00,05
+End time: 12/11/2026 11:52:00,05
+Progress:Total time to convert table: 0:0:0:0,01
+Total time to convert table: 0:0:0:0,01
+
+------------------------------------------------------------
+Converting Recnum table: 264, WebAppUser, WebApp User
+Progress:Start time: 12/11/2026 11:52:00,05
+Start time: 12/11/2026 11:52:00,05
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppUser' ya existe.  Table = WebAppUser (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppUser' ya existe.  Table = WebAppUser (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 11:52:00,05
+End time: 12/11/2026 11:52:00,05
+Progress:Total time to convert table: 0:0:0:0
+Total time to convert table: 0:0:0:0
+
+------------------------------------------------------------
+Converting Recnum table: 265, WebAppServerProps, WebApp Server Props
+Progress:Start time: 12/11/2026 11:52:00,056
+Start time: 12/11/2026 11:52:00,056
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppServerProps' ya existe.  Table = WebAppServerProps (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppServerProps' ya existe.  Table = WebAppServerProps (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 11:52:00,06
+End time: 12/11/2026 11:52:00,06
+Progress:Total time to convert table: 0:0:0:0,004
+Total time to convert table: 0:0:0:0,004
+
+############################################################
+List of tables that experienced errors while converting:
+   CodeType - Unable to create.
+   CodeMast - Unable to create.
+   WebAppSes- Unable to create.
+   WebAppUse- Unable to create.
+   WebAppSer- Unable to create.
+////////////////////////////////////////////////////////////
+Finished conversion at 12/11/2026 11:52:00,06
+Total conversion time: 0:0:0:0,02
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Starting conversion at 12/11/2026 11:54:09,712
+////////////////////////////////////////////////////////////
+
+------------------------------------------------------------
+Converting Recnum table: 253, CodeType, Code Maintenance Type Table
+Progress:Start time: 12/11/2026 11:54:09,712
+Start time: 12/11/2026 11:54:09,712
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeType' ya existe.  Table = CodeType (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeType' ya existe.  Table = CodeType (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 11:54:09,724
+End time: 12/11/2026 11:54:09,724
+Progress:Total time to convert table: 0:0:0:0,012
+Total time to convert table: 0:0:0:0,012
+
+------------------------------------------------------------
+Converting Recnum table: 254, CodeMast, Code Maintenance Code Table
+Progress:Start time: 12/11/2026 11:54:09,724
+Start time: 12/11/2026 11:54:09,724
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeMast' ya existe.  Table = CodeMast (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeMast' ya existe.  Table = CodeMast (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 11:54:09,724
+End time: 12/11/2026 11:54:09,724
+Progress:Total time to convert table: 0:0:0:0
+Total time to convert table: 0:0:0:0
+
+------------------------------------------------------------
+Converting Recnum table: 263, WebAppSession, WebApp Session
+Progress:Start time: 12/11/2026 11:54:09,724
+Start time: 12/11/2026 11:54:09,724
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppSession' ya existe.  Table = WebAppSession (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppSession' ya existe.  Table = WebAppSession (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 11:54:09,732
+End time: 12/11/2026 11:54:09,732
+Progress:Total time to convert table: 0:0:0:0,008
+Total time to convert table: 0:0:0:0,008
+
+------------------------------------------------------------
+Converting Recnum table: 264, WebAppUser, WebApp User
+Progress:Start time: 12/11/2026 11:54:09,732
+Start time: 12/11/2026 11:54:09,732
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppUser' ya existe.  Table = WebAppUser (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppUser' ya existe.  Table = WebAppUser (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 11:54:09,732
+End time: 12/11/2026 11:54:09,732
+Progress:Total time to convert table: 0:0:0:0
+Total time to convert table: 0:0:0:0
+
+------------------------------------------------------------
+Converting Recnum table: 265, WebAppServerProps, WebApp Server Props
+Progress:Start time: 12/11/2026 11:54:09,732
+Start time: 12/11/2026 11:54:09,732
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppServerProps' ya existe.  Table = WebAppServerProps (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppServerProps' ya existe.  Table = WebAppServerProps (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 11:54:09,74
+End time: 12/11/2026 11:54:09,74
+Progress:Total time to convert table: 0:0:0:0,008
+Total time to convert table: 0:0:0:0,008
+
+############################################################
+List of tables that experienced errors while converting:
+   CodeType - Unable to create.
+   CodeMast - Unable to create.
+   WebAppSes- Unable to create.
+   WebAppUse- Unable to create.
+   WebAppSer- Unable to create.
+////////////////////////////////////////////////////////////
+Finished conversion at 12/11/2026 11:54:09,741
+Total conversion time: 0:0:0:0,029
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Starting conversion at 12/11/2026 12:02:52,483
+////////////////////////////////////////////////////////////
+
+------------------------------------------------------------
+Converting Recnum table: 253, CodeType, Code Maintenance Type Table
+Progress:Start time: 12/11/2026 12:02:52,493
+Start time: 12/11/2026 12:02:52,493
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeType' ya existe.  Table = CodeType (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeType' ya existe.  Table = CodeType (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 12:02:52,493
+End time: 12/11/2026 12:02:52,493
+Progress:Total time to convert table: 0:0:0:0
+Total time to convert table: 0:0:0:0
+
+------------------------------------------------------------
+Converting Recnum table: 254, CodeMast, Code Maintenance Code Table
+Progress:Start time: 12/11/2026 12:02:52,493
+Start time: 12/11/2026 12:02:52,493
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeMast' ya existe.  Table = CodeMast (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'CodeMast' ya existe.  Table = CodeMast (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 12:02:52,493
+End time: 12/11/2026 12:02:52,493
+Progress:Total time to convert table: 0:0:0:0
+Total time to convert table: 0:0:0:0
+
+------------------------------------------------------------
+Converting Recnum table: 263, WebAppSession, WebApp Session
+Progress:Start time: 12/11/2026 12:02:52,493
+Start time: 12/11/2026 12:02:52,493
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppSession' ya existe.  Table = WebAppSession (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppSession' ya existe.  Table = WebAppSession (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 12:02:52,503
+End time: 12/11/2026 12:02:52,503
+Progress:Total time to convert table: 0:0:0:0,01
+Total time to convert table: 0:0:0:0,01
+
+------------------------------------------------------------
+Converting Recnum table: 264, WebAppUser, WebApp User
+Progress:Start time: 12/11/2026 12:02:52,503
+Start time: 12/11/2026 12:02:52,503
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppUser' ya existe.  Table = WebAppUser (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppUser' ya existe.  Table = WebAppUser (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 12:02:52,503
+End time: 12/11/2026 12:02:52,503
+Progress:Total time to convert table: 0:0:0:0
+Total time to convert table: 0:0:0:0
+
+------------------------------------------------------------
+Converting Recnum table: 265, WebAppServerProps, WebApp Server Props
+Progress:Start time: 12/11/2026 12:02:52,509
+Start time: 12/11/2026 12:02:52,509
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppServerProps' ya existe.  Table = WebAppServerProps (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general 42S01 (-1303)--[Microsoft][Controlador ODBC dBASE] La tabla 'WebAppServerProps' ya existe.  Table = WebAppServerProps (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 12:02:52,513
+End time: 12/11/2026 12:02:52,513
+Progress:Total time to convert table: 0:0:0:0,004
+Total time to convert table: 0:0:0:0,004
+
+############################################################
+List of tables that experienced errors while converting:
+   CodeType - Unable to create.
+   CodeMast - Unable to create.
+   WebAppSes- Unable to create.
+   WebAppUse- Unable to create.
+   WebAppSer- Unable to create.
+////////////////////////////////////////////////////////////
+Finished conversion at 12/11/2026 12:02:52,513
+Total conversion time: 0:0:0:0,03
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Starting conversion at 12/11/2026 12:09:10
+////////////////////////////////////////////////////////////
+
+------------------------------------------------------------
+Converting Recnum table: 253, CodeType, Code Maintenance Type Table
+Progress:Start time: 12/11/2026 12:09:10,008
+Start time: 12/11/2026 12:09:10,008
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Progress:Creating intermediate file.
+Creating intermediate file.
+CLI_DROPINDICES
+Progress:Temporary delete of all indices of table codetype.
+Temporary delete of all indices of table codetype.
+Progress:Dropping primary key PRIMARY.
+Dropping primary key PRIMARY.
+Progress:Copying record
+Progress:All 0 records copied.
+All 0 records copied.
+CLI_CREATEINDICES
+Progress:Re-creating temporary deleted indices of table codetype.
+Re-creating temporary deleted indices of table codetype.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Close hSQLTable
+Close ahTables[iCount]
+Adjust filelist slot
+Output_def_file
+Progress:End time: 12/11/2026 12:09:10,151
+End time: 12/11/2026 12:09:10,151
+Progress:Total time to convert table: 0:0:0:0,143
+Total time to convert table: 0:0:0:0,143
+
+------------------------------------------------------------
+Converting Recnum table: 254, CodeMast, Code Maintenance Code Table
+Progress:Start time: 12/11/2026 12:09:10,16
+Start time: 12/11/2026 12:09:10,16
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Progress:Creating intermediate file.
+Creating intermediate file.
+CLI_DROPINDICES
+Progress:Temporary delete of all indices of table codemast.
+Temporary delete of all indices of table codemast.
+Progress:Dropping primary key PRIMARY.
+Dropping primary key PRIMARY.
+Progress:Copying record
+Progress:All 0 records copied.
+All 0 records copied.
+CLI_CREATEINDICES
+Progress:Re-creating temporary deleted indices of table codemast.
+Re-creating temporary deleted indices of table codemast.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Close hSQLTable
+Close ahTables[iCount]
+Adjust filelist slot
+Output_def_file
+Progress:End time: 12/11/2026 12:09:10,308
+End time: 12/11/2026 12:09:10,308
+Progress:Total time to convert table: 0:0:0:0,148
+Total time to convert table: 0:0:0:0,148
+
+------------------------------------------------------------
+Converting Recnum table: 263, WebAppSession, WebApp Session
+Progress:Start time: 12/11/2026 12:09:10,31
+Start time: 12/11/2026 12:09:10,31
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Progress:Creating index WebAppSession002.
+Creating index WebAppSession002.
+Progress:Creating index WebAppSession003.
+Creating index WebAppSession003.
+Progress:Creating intermediate file.
+Creating intermediate file.
+CLI_DROPINDICES
+Progress:Temporary delete of all indices of table webappsession.
+Temporary delete of all indices of table webappsession.
+Progress:Dropping primary key PRIMARY.
+Dropping primary key PRIMARY.
+Progress:Dropping index WebAppSession002.
+Dropping index WebAppSession002.
+Progress:Dropping index WebAppSession003.
+Dropping index WebAppSession003.
+Progress:Copying record
+Progress:All 0 records copied.
+All 0 records copied.
+CLI_CREATEINDICES
+Progress:Re-creating temporary deleted indices of table webappsession.
+Re-creating temporary deleted indices of table webappsession.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Progress:Creating index WebAppSession002.
+Creating index WebAppSession002.
+Progress:Creating index WebAppSession003.
+Creating index WebAppSession003.
+Close hSQLTable
+Close ahTables[iCount]
+Adjust filelist slot
+Output_def_file
+Progress:End time: 12/11/2026 12:09:10,62
+End time: 12/11/2026 12:09:10,62
+Progress:Total time to convert table: 0:0:0:0,31
+Total time to convert table: 0:0:0:0,31
+
+------------------------------------------------------------
+Converting Recnum table: 264, WebAppUser, WebApp User
+Progress:Start time: 12/11/2026 12:09:10,62
+Start time: 12/11/2026 12:09:10,62
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Progress:Creating intermediate file.
+Creating intermediate file.
+CLI_DROPINDICES
+Progress:Temporary delete of all indices of table webappuser.
+Temporary delete of all indices of table webappuser.
+Progress:Dropping primary key PRIMARY.
+Dropping primary key PRIMARY.
+Progress:Copying record
+Progress:All 1 records copied.
+All 1 records copied.
+CLI_CREATEINDICES
+Progress:Re-creating temporary deleted indices of table webappuser.
+Re-creating temporary deleted indices of table webappuser.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Close hSQLTable
+Close ahTables[iCount]
+Adjust filelist slot
+Output_def_file
+Progress:End time: 12/11/2026 12:09:10,78
+End time: 12/11/2026 12:09:10,78
+Progress:Total time to convert table: 0:0:0:0,16
+Total time to convert table: 0:0:0:0,16
+
+------------------------------------------------------------
+Converting Recnum table: 265, WebAppServerProps, WebApp Server Props
+Progress:Start time: 12/11/2026 12:09:10,783
+Start time: 12/11/2026 12:09:10,783
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Progress:Creating index WebAppServerProps002.
+Creating index WebAppServerProps002.
+Progress:Creating intermediate file.
+Creating intermediate file.
+CLI_DROPINDICES
+Progress:Temporary delete of all indices of table webappserverprops.
+Temporary delete of all indices of table webappserverprops.
+Progress:Dropping primary key PRIMARY.
+Dropping primary key PRIMARY.
+Progress:Dropping index WebAppServerProps002.
+Dropping index WebAppServerProps002.
+Progress:Copying record
+Progress:All 0 records copied.
+All 0 records copied.
+CLI_CREATEINDICES
+Progress:Re-creating temporary deleted indices of table webappserverprops.
+Re-creating temporary deleted indices of table webappserverprops.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Progress:Creating index WebAppServerProps002.
+Creating index WebAppServerProps002.
+Close hSQLTable
+Close ahTables[iCount]
+Adjust filelist slot
+Output_def_file
+Progress:End time: 12/11/2026 12:09:11,052
+End time: 12/11/2026 12:09:11,052
+Progress:Total time to convert table: 0:0:0:0,269
+Total time to convert table: 0:0:0:0,269
+////////////////////////////////////////////////////////////
+Finished conversion at 12/11/2026 12:09:11,052
+Total conversion time: 0:0:0:1,044
+////////////////////////////////////////////////////////////
