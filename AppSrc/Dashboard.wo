@@ -113,6 +113,33 @@ Object oDashboard is a cWebView
                 End_Procedure
             End_Object
         End_Object
+
+        // - - - - - - - - - - - - - - -
+        // Botones de navegación añadidos
+        // - - - - - - - - - - - - - - -
+        Object oBtnVerEquipos is a cWebButton
+            Set psCaption to "Ver Equipos"
+            Set piColumnSpan to 6
+            Set piColumnIndex to 6
+
+            WebRegisterPath ntNavigateForwardCustom oSelectEquipo
+
+            Procedure OnClick
+                Send NavigatePath
+            End_Procedure
+        End_Object
+
+        Object oBtnVerPosiciones is a cWebButton
+            Set psCaption to "Ver Posiciones"
+            Set piColumnSpan to 6
+            Set piColumnIndex to 12
+
+            WebRegisterPath ntNavigateForwardCustom oSelectPosicion
+
+            Procedure OnClick
+                Send NavigatePath
+            End_Procedure
+        End_Object
     
     End_Object
     
