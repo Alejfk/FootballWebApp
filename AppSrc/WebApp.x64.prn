@@ -1,5 +1,5 @@
 Compiling Program: C:\DataFlex Projects\FootballWebApp\AppSrc\WebApp.src
-Memory Available: 42330230784
+Memory Available: 48266510336
 1>Use AllWebAppClasses.pkg
 Using pre-compiled package ALLWEBAPPCLASSES.PKG
 Including file: AllWebAppClasses.x64.pkd    (C:\Program Files\DataFlex 25.0\Pkg\AllWebAppClasses.x64.pkd)
@@ -3540,39 +3540,68 @@ Including file: cjugadorDataDictionary.dd    (C:\DataFlex Projects\FootballWebAp
 39115>>>                End_Procedure
 39116>>>            End_Object
 39117>>>        End_Object
-39118>>>    
-39118>>>    End_Object
-39119>>>    
-39119>>>    Procedure OnBeforeShow
-39122>>>        // Each time this view is shown we will update the appropriate information.
-39122>>>    End_Procedure
+39118>>>
+39118>>>        // - - - - - - - - - - - - - - -
+39118>>>        // Botones de navegación añadidos
+39118>>>        // - - - - - - - - - - - - - - -
+39118>>>        Object oBtnVerEquipos is a cWebButton
+39120>>>            Set psCaption to "Ver Equipos"
+39121>>>            Set piColumnSpan to 6
+39122>>>            Set piColumnIndex to 6
 39123>>>
-39123>>>End_Object
-39124>    Use ZoomLiga.wo
-39124>    Use ZoomPosicion.wo
-39124>    Use ZoomEquipo.wo
-39124>    Use ZoomEntrenador.wo
-39124>    Use ZoomJugador.wo
-39124>    Use SelectLiga.wo
-39124>    Use SelectPosicion.wo
-39124>    Use SelectEquipo.wo
-39124>    Use SelectEntrenador.wo
-39124>    Use SelectJugador.wo
-39124>    Set phoDefaultView to oDashboard
-39125>
-39125>End_Object
-39126>
-39126>Send StartWebApp of oWebApp
-39127>
+39123>>>            WebRegisterPath ntNavigateForwardCustom oSelectEquipo
+39129>>>
+39129>>>            Procedure OnClick
+39132>>>                Send NavigatePath
+39133>>>            End_Procedure
+39134>>>        End_Object
+39135>>>
+39135>>>        Object oBtnVerPosiciones is a cWebButton
+39137>>>            Set psCaption to "Ver Posiciones"
+39138>>>            Set piColumnSpan to 6
+39139>>>            Set piColumnIndex to 12
+39140>>>
+39140>>>            WebRegisterPath ntNavigateForwardCustom oSelectPosicion
+39146>>>
+39146>>>            Procedure OnClick
+39149>>>                Send NavigatePath
+39150>>>            End_Procedure
+39151>>>        End_Object
+39152>>>    
+39152>>>    End_Object
+39153>>>    
+39153>>>    Procedure OnBeforeShow
+39156>>>        // Each time this view is shown we will update the appropriate information.
+39156>>>    End_Procedure
+39157>>>
+39157>>>End_Object
+39158>    Use ZoomLiga.wo
+39158>    Use ZoomPosicion.wo
+39158>    Use ZoomEquipo.wo
+39158>    Use ZoomEntrenador.wo
+39158>    Use ZoomJugador.wo
+39158>    Use SelectLiga.wo
+39158>    Use SelectPosicion.wo
+39158>    Use SelectEquipo.wo
+39158>    Use SelectEntrenador.wo
+39158>    Use SelectJugador.wo
+39158>    Set phoDefaultView to oDashboard
+39159>    
+39159>    
+39159>
+39159>End_Object
+39160>
+39160>Send StartWebApp of oWebApp
+39161>
 Summary
-Memory Available: 42307682304
+Memory Available: 48249278464
 Total Warnings : 0
 Total Errors   : 0
-Total Symbols  : 25609
+Total Symbols  : 25621
 Total Resources: 0
-Total Commands : 39126
+Total Commands : 39160
 Total Windows  : 0
 Total Pages    : 0
-Static Data    : 485223
-Message area   : 262920
-Total Blocks   : 17368
+Static Data    : 485425
+Message area   : 263252
+Total Blocks   : 17379

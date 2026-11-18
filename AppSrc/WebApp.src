@@ -199,6 +199,8 @@ Object oWebApp is a cWebApp
     Use SelectEntrenador.wo
     Use SelectJugador.wo
     Set phoDefaultView to oDashboard
+    
+    
 
 End_Object
 
